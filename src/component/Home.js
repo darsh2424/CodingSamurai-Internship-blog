@@ -89,7 +89,7 @@ const Home = ({ isDarkMode, loading, setLoading }) => {
                   </div>
                 ))}
               </div>
-              <div className='mx-2 my-2 d-flex justify-content-end'>
+              <div className='mx-2 mb-5 d-flex justify-content-end'>
                 {
                   displayPost.length === posts.length ? (
                     <button
